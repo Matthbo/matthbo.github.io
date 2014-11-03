@@ -36,3 +36,17 @@ td:last-child
 	white-space: normal;                                      
 	width:75%;                                               
 }
+
+div.info{
+	background-color: #BFBFBF;
+	/*border-style: solid;
+	border-color: black;
+	border-width: 1px;*/
+	position: fixed;
+    top: 10px;
+    right: 10px;
+	text-align: center;
+}
+a.info{
+	text-decoration: none;
+}
