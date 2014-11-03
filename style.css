@@ -1,20 +1,37 @@
 body {
+  background: #D1D1D1;
   margin: 0 auto;
+  font: "Verdana"
   padding: 10px left;
   min-width: 998px;
 }
 .builds { margin: 10px; }
 h1 { margin: 10px; }
+h3 { margin: 20px; }
 
-td,th                                                       
-{                                                           
-    white-space: nowrap;                                      
-	text-align: left;                                         
-	padding-left: 20px;                                       
-	padding-right: 20px;                                      
-}                                                           
-td:last-child                                               
-{                                                           
+table
+{
+	margin: 20px;
+	width: auto;
+	background-color: #BFBFBF;
+}
+
+td,th
+{
+    white-space: nowrap;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+th:last-child
+{
 	white-space: normal;                                      
-	width:100%;                                               
+	width:75%;                                               
+}
+
+td:last-child
+{
+	white-space: normal;                                      
+	width:75%;                                               
 }
