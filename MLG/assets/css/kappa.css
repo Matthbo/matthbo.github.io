@@ -1,0 +1,12 @@
+body{
+	background: url(../img/rainbowKappa.gif) no-repeat center center fixed;
+	background-size: cover;
+	background-color:black;
+	position: fixed;
+    top:0px;
+    left: 0px;
+}
+img{
+	width: 64px;
+	height: 64px;
+}

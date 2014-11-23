@@ -1,0 +1,16 @@
+body.index{
+	background: url(../img/MLFG.png) no-repeat center center fixed;
+	background-size: cover;
+	background-color:black;
+	/*color:white;*/
+	font-size:32px;
+}
+a.gotoHome{
+	color: orange;
+	font-size: 64px;
+	text-decoration: none;
+	position: fixed;
+    bottom: -5px;
+    right: 1px;
+}
+

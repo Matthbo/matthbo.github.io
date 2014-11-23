@@ -1,0 +1,33 @@
+body{
+	/*background: url(../img/tf2.gif) no-repeat center center fixed;*/
+	background-size: cover;
+	background-color:black;
+	font-size:32px;
+	font-family: Showcard Gothic;
+	color: black;
+}
+body.tf2{
+	background: url(../img/tf2.gif) no-repeat center center fixed;
+	background-size: cover;
+	background-color:black;
+}
+body.cod{
+	background: url(../img/cod.gif) no-repeat center center fixed;
+	background-size: cover;
+	background-color:black;
+}
+body.bf{
+	background: url(../img/bf.gif) no-repeat center center fixed;
+	background-size: cover;
+	background-color:black;
+}
+a{
+	text-decoration:none;
+}
+img{
+	width: 128px;
+	height: 128px;
+	position: fixed;
+    bottom: 0px;
+    left: 0px;
+}

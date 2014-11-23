@@ -1,0 +1,52 @@
+body.home{
+	background-color:grey;
+	color:black;
+	font-family: Showcard Gothic;
+	font-size:32px;
+}
+marquee.lol_comments{
+	background-color: rgba(0%, 0%, 0%, 0.75);
+	color: white;
+	font-family: Arial Black;
+	font-size: 24px;
+	position: fixed;
+	top: 0px;
+}
+
+img{
+	width: 256px;
+	height: 256px;
+	background-color: black;
+}
+img.kappa{
+	width: 256px;
+	height: 256px;
+	background-image: url(../img/kappa.png);
+	background-color: black;
+}
+
+img.kappa:hover{
+	width: 256px;
+	height: 256px;
+	background-image:url(../img/rainbowkappa.png); 
+}
+iframe{
+	width: 560px; 
+	height: 315px;
+}
+
+img.mlg{
+	width: 64px;
+	height: 32px;
+	background-image: url(../img/mlg-small.png);
+	background-color: white;
+	position: absolute;/*fixed = ingorecase, always at that position*/
+	top: 50px;
+}
+img.tf2:hover, img.mc:hover, img.cod:hover, img.bf:hover{
+	background-image:url(../img/rainbowfrog.gif); 
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+}
