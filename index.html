@@ -19,9 +19,51 @@ I hope this webside is helpful, and I hope you'll like my projects.
 </p>
 
 <br>
+<div class="mcversions">                                                     
+      <script>
+        function display_relevent()
+        {
+          var opts = document.getElementById("view_project");
+          var version = "all";
+          for (var x = 0; x < opts.length; x++)
+          {
+            if (opts[x].selected)
+            {
+              version = opts[x].value;
+            }
+          }
+          for (var x = 0; x < opts.length; x++)
+          {
+            var display = opts[x].selected ? "block" : "none";
+            if (version == "all")
+            {
+                display = "block";
+            }
+            var table = document.getElementById(opts[x].value + "_builds");
+            if (table)
+            {
+              table.style.display = display;
+            }
+          }
+		}
+	</script>
+	<form>
+		<h3>
+		Select Projects:
+			<select id="view_project"  onchange="display_relevent()">
+				<option value="all" selected>All</option>
+				<option value="DarkWorld">DarkWorld</option>
+				<option value="ConnectToSocial">ConnectToSocial</option>
+				<option value="ChatCooldown">ChatCooldown</option>
+			</select>
+		</h3>
+	</form>
+</div>
+
+<br>
 
 <h1>Mods:</h1>
-<div class="builds" id="DarkWorld">
+<div class="builds" id="DarkWorld_builds">
 <table border="0">
 <h3>Dark World:<h3>
 <tr>
@@ -46,7 +88,7 @@ I hope this webside is helpful, and I hope you'll like my projects.
 <br>
 
 <h1>Plugins:</h1>
-<div class="builds" id="ConnectToSocial">
+<div class="builds" id="ConnectToSocial_builds">
 <table border="0">
 
 <h3>ConnectToSocial:<h3>
@@ -83,7 +125,7 @@ I hope this webside is helpful, and I hope you'll like my projects.
 
 </table>
 </div>
-<div class="builds" id="ChatCooldown">
+<div class="builds" id="ChatCooldown_builds">
 <table border="0">
 
 <h3>ChatCooldown:</h3>
