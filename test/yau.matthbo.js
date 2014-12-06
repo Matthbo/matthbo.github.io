@@ -46,7 +46,7 @@ function eraseCookie(name) {
 }
 
 function checkInpt1(){
-	var cookie = readCookie('inpt1');
+	var cookie = readCookie('yauTime');
 	if(cookie != null){
 		return cookie;
 	}
