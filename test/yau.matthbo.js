@@ -89,7 +89,7 @@ function main(){
 	var inpt2 = document.createElement("input");
 	inpt2.setAttribute('id', 'inpt2');
 	inpt2.setAttribute('type', 'number');
-	inpt1.setAttribute('value', checkInpt2());
+	inpt2.setAttribute('value', checkInpt2());
 	divMenu.appendChild(inpt2);
 	
 	var span2 = document.createElement("span");
