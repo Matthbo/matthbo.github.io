@@ -48,9 +48,19 @@ function eraseCookie(name) {
 function checkInpt1(){
 	var cookie = readCookie('yauTime');
 	if(cookie != null){
+		time=cookie
 		return cookie;
 	}
 	else return 5;
+}
+
+function checkInpt2(){
+	var cookie = readCookie('yauTimes');
+	if(cookie != null){
+		time=cookie
+		return cookie;
+	}
+	else return 60000;
 }
 
 function main(){
@@ -79,6 +89,7 @@ function main(){
 	var inpt2 = document.createElement("input");
 	inpt2.setAttribute('id', 'inpt2');
 	inpt2.setAttribute('type', 'number');
+	inpt1.setAttribute('value', checkInpt2());
 	divMenu.appendChild(inpt2);
 	
 	var span2 = document.createElement("span");
@@ -98,6 +109,11 @@ function main(){
 	
 	jQuery('#inpt1').on('input', function() {
 	createCookie("yauTime", document.getElementById('inpt1').value, 2650);
+	
+	});
+	
+	jQuery('#inpt2').on('input', function() {
+	createCookie("yauTimes", document.getElementById('inpt2').value, 2650);
 	
 	});
 }
