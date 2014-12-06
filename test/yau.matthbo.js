@@ -57,7 +57,7 @@ function checkInpt1(){
 function checkInpt2(){
 	var cookie = readCookie('yauTimes');
 	if(cookie != null){
-		time=cookie
+		times=cookie
 		return cookie;
 	}
 	else return 60000;
