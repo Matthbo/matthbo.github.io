@@ -51,3 +51,17 @@ div.info{
 a{
 	text-decoration: none;
 }
+
+@media screen and (max-width: 700px) {
+/* applies only if the screen is narrower than 500px */
+	div.info {
+		background-color: #BFBFBF;
+	/*border-style: solid;
+	border-color: black;
+	border-width: 1px;*/
+	position: static;
+    top: 10px;
+    right: 10px;
+	text-align: center;
+	}
+}
