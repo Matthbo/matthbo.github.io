@@ -3,7 +3,6 @@ body {
   margin: 0 auto;
   font: "Verdana"
   padding: 10px left;
-  min-width: 998px;
 }
 .builds { margin: 10px; }
 h1 { margin: 10px; }
@@ -52,7 +51,7 @@ a{
 	text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 /* applies only if the screen is narrower than 500px */
 	div.info {
 		background-color: #BFBFBF;
