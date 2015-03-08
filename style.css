@@ -79,5 +79,10 @@ a{
     top: 10px;
     right: 10px;
 	text-align: center;
+	width: auto;
+	}
+	
+	div.updates{
+	visibility: hidden;
 	}
 }
