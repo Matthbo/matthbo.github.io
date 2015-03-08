@@ -37,6 +37,10 @@ td:last-child
 	width:75%;                                               
 }
 
+span.update{
+	background-color: #CFCFCF;
+}
+
 div.info{
 	background-color: #BFBFBF;
 	/*border-style: solid;
@@ -46,15 +50,28 @@ div.info{
     top: 10px;
     right: 10px;
 	text-align: center;
+	width: 20%;
 }
+
+div.updates{
+	background-color: #BFBFBF;
+	position: fixed;
+    top: 150px;
+    right: 10px;
+	text-align: center;
+	width: 20%;
+	height: 75%;
+	/*overflow-y: scroll; add this if too much news!*/
+}
+
 a{
 	text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
-/* applies only if the screen is narrower than 500px */
+/* applies only if the screen is narrower than 800px */
 	div.info {
-		background-color: #BFBFBF;
+	background-color: #BFBFBF;
 	/*border-style: solid;
 	border-color: black;
 	border-width: 1px;*/
