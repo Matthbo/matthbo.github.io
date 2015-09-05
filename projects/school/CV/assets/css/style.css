@@ -2,12 +2,18 @@ body{
 	margin: 0 auto;
 	padding: 0 auto;
 	background-color: #BFBFBF;
-	font-size: 16pt;
+	font-size: 14pt;
 }
 #kop{
 	text-align: center;
 	font-size: 46pt;
 	margin: 0.5% auto;
+}
+
+.title{
+	font-family: Cambria;
+	font-size: 20pt;
+	margin-top: 0%;
 }
 
 #intro{
@@ -75,6 +81,7 @@ body{
 	top: 50%;
 	transform: translate(0, -50%);
 	background-color: rgba(0,0,0,0.2);
+	font-family: Cambria;
 }
 
 .menuBtn{
