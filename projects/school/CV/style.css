@@ -1,0 +1,146 @@
+@font-face{
+	font-family: 'Fipps-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Fipps-Regular'), url('Fipps-Regular.otf') format('opentype');
+}
+
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: #989898;
+	font-size: 14pt;
+}
+
+#kop{
+	text-align: center;
+	font-size: 36pt;
+	margin: 0px;
+	font-family: 'Fipps-Regular';
+	/*font-family: Courier New;*/
+}
+
+.title{
+	font-family: Cambria;
+	font-size: 20pt;
+	margin-top: 0%;
+	color: #000000;
+}
+
+#intro{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background-color: #c1c1c1;
+	vertical-align: center;
+	font-family: Verdana;
+}
+
+.info{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 16pt;
+	text-align: left;	
+}
+
+#info1{
+	padding-left: 22%;
+	
+}
+
+#mail{color: black;}
+
+#me{
+	height: 250px;
+	border-radius: 80px;
+	border: 2px rgba(0,0,0,0.3) solid;
+}
+
+#meDiv{
+	float: right;
+	padding-right: 25%;
+}
+
+.wrap1{
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-color: #c1c1c1;
+	vertical-align: middle;   
+	text-align: center;
+	font-family: Verdana;
+	color: #1e1e1e;
+}
+
+.wrap2{
+	/*height: 40%;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+	/*background-color: #7F7F7F;*/
+	background-color: #dadada;
+	vertical-align: middle;
+	text-align: center;
+	font-family: Verdana;
+	color: #1e1e1e;
+}
+
+.opleidingen{
+}
+
+#opleidingCont ul{
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+}
+
+#menu{
+	padding: 10px;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	list-style-type: none;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-family: Cambria;
+}
+
+.menuBtn{
+	margin-top: 25%;
+	margin-bottom: 25%;
+}
+
+.menuBtn:hover{
+	color: #323232;
+}
+
+.menuA{
+	text-decoration: none;
+	color: white;
+}
+
+#menuDiv{
+	background-color: rgba(0,0,0,0.8);
+	font-size: 12pt;
+	color: red;
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	text-align: center;
+}
+
+hr{
+	width: 80%;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 1500px) {
+	#meDiv{
+		visibility:hidden;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#menuDiv{
+		visibility: hidden;
+	}
+}
