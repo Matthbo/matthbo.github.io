@@ -14,3 +14,8 @@ img.portret {
   border-radius: 25%;
   margin-bottom: 15px;
 }
+
+img.header_img {
+  width: 100%;
+  height: 256px;
+}
