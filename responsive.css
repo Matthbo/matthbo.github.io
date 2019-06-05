@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px){
+  main {
+    width: 512px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px){
+  main {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 900px;
+    height: 600px;
+    align-items: center;
+  }
+
+  main .info {
+    position: relative;
+    width: 300px;
+  }
+
+  main .divider {
+    display: none;
+  }
+
+  main ul {
+    position: relative;
+    flex-grow: 1;
+  }
+}

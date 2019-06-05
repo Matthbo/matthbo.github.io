@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<updates>
-	<update>I added this "Updates" thing, it's used to inform you with what's going on. I hope this isn't that bad as I think it is :P</update>
-	<update>I'm porting bukkit plugins to work with Sponge, you can find the ported versions by clicking on "(Ports)".</update>
-	<update>The downloads for the ported plugins will be available when Sponge is officialy released, you can clone the repo and build it if you really need to. I might need to change some code before it releases though.</update>
-    <update>I'm using Travis CI instead of droneIO for development builds, downloads also won't be available anymore!</update>
-    <update>There is a new project added, BeamBot. More about it later!</update>
-</updates>

@@ -1,225 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Matthbo's Downloads</title>
+	<title>Matthbo - Links to internet places</title>
+	
+  <meta name="description" content="Places where you can find Matthbo">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">
+  <base href="/">
+
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<script src="lib.js"></script>
-	
-	<meta name='viewport' content='width=700'>
-	
-	<script>
-	function getElementID(id) {
-	return document.getElementById(id).elements.length;
-	}
-	</script>
-	<script>
-	document.cookie="test=true; expires=Fri, 27 Jul 2020 02:47:11 UTC; path=/"
-	</script>
+  <link rel="stylesheet" type="text/css" href="responsive.css" />
 </head>
 <body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58028319-1', 'auto');
-  ga('send', 'pageview');
+  <main>
+    <div class="info">
+      <img src="/img/profile.png" alt="Avatar/profile picture" id="profile">
+      <h1>Places where you can find me</h1>
+      <p>I am not particularly active, but here are some links if you are interested</p>
+    </div>
 
-</script>
-<p>
-	<h1>Matthbo's Downloads</h1>
-</p>
+    <div class="divider"></div>
 
-<p class="intro">
-Welcome to the webside where you can download all of Matthbo's published mod and plugins.<br>
-This webside is made only for directing you to downloads/repo's from Matthbo's projects,<br>
-Not for having tutorials or wiki's. this also means that this webside is meant as<br>
-shortcut for projects and doesn't need to look good.<br>
-I hope this webside is helpful, and I hope you'll like my projects.
-</p>
-
-<br>
-<div class="mcversions">                                                     
-      <script>
-        function display_relevent()
-        {
-          var opts = document.getElementById("view_project");
-          var version = "all";
-          for (var x = 0; x < opts.length; x++)
-          {
-            if (opts[x].selected)
-            {
-              version = opts[x].value;
-            }
-          }
-          for (var x = 0; x < opts.length; x++)
-          {
-            var display = opts[x].selected ? "block" : "none";
-            if (version == "all")
-            {
-                display = "block";
-            }
-            var table = document.getElementById(opts[x].value + "_builds");
-            if (table)
-            {
-              table.style.display = display;
-            }
-          }
-		}
-	</script>
-	<form>
-		<h3>
-		Select Projects:
-			<select id="view_project"  onchange="display_relevent()">
-				<option value="all" selected>All</option>
-				<option value="DarkWorld">DarkWorld</option>
-				<option value="ConnectToSocial">ConnectToSocial</option>
-				<option value="CCooldown">CCooldown</option>
-				<option value="ProblemReporter">ProblemReporter</option>
-			</select>
-		</h3>
-	</form>
-</div>
-
-<br>
-
-<h1>Mods:</h1>
-<div class="builds" id="DarkWorld_builds">
-<table border="0">
-<h3>Dark World:<h3>
-<tr>
-	<th>Minecraft</th>
-	<th>Version</th>
-	<th>Info</th>
-</tr>
-<tr>
-	<td>1.7.10</td>
-	<td>0.2</td>
-	<td>(<a class="RegDownload" href="http://minecraft.curseforge.com/mc-mods/225075-dark-world/files/2225172" >Download</a>)<a class="MirDownload" href="http://www.mediafire.com/download/w938ml8go5hyg7z/DarkWorld-1.7.10-0.2.jar" >*</a> (<a class="githubRepo" href="https://github.com/Matthbo/DarkWorld">Repo</a>) (Beta Build)</td>
-</tr>
-<tr>
-	<td>1.7.10</td>
-	<td>0.1.1</td>
-	<td>(<a class="RegDownload" href="http://minecraft.curseforge.com/mc-mods/225075-dark-world/files/2221424" >Download</a>)<a class="MirDownload" href="http://www.mediafire.com/download/8nmywtizp9brx27/DarkWorld-1.7.10-0.1.1.jar" >*</a> (<a class="githubRepo" href="https://github.com/Matthbo/DarkWorld">Repo</a>) ALPHA BUILD</td>
-</tr>
-<tr>
-	<td>1.7.10</td>
-	<td>0.1</td>
-	<td>(<a class="RegDownload" href="http://minecraft.curseforge.com/mc-mods/225075-dark-world/files/2217337" >Download</a>)<a class="MirDownload" href="http://www.mediafire.com/download/qxjkw2pb7j2j3bw/DarkWorld-1.7.10-0.1.jar" >*</a> (<a class="githubRepo" href="https://github.com/Matthbo/DarkWorld">Repo</a>) ALPHA BUILD</td>
-</tr>
-</table>
-<table border="0">
-<tr>
-	<!--th>For Development Builds: <a href="https://drone.io/github.com/Matthbo/DarkWorld/latest"><img src="https://drone.io/github.com/Matthbo/DarkWorld/status.png"/></a></th>-->
-	<th>For Development Builds: <a href="devbuilds">Click Here</a></th>
-</tr>
-</table>
-</div>
-
-<br>
-
-<h1>Plugins:</h1>
-<div class="builds" id="ConnectToSocial_builds">
-<table border="0">
-
-<h3>ConnectToSocial:<h3>
-<tr>
-	<th>Minecraft</th>
-	<th>Version</th>
-	<th>Info</th>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.5</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ConnectToSocial/releases/tag/1.5">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ConnectToSocial">Repo</a>) (<a href="ported-plugins">Ports</a>)</td>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.4</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ConnectToSocial/releases/tag/1.4">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ConnectToSocial">Repo</a>)</td>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.3</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ConnectToSocial/releases/tag/1.3">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ConnectToSocial">Repo</a>)</td>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.2</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ConnectToSocial/releases/tag/1.2">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ConnectToSocial">Repo</a>)</td>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.1</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ConnectToSocial/releases/tag/1.1">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ConnectToSocial">Repo</a>)</td>
-</tr>
-
-</table>
-</div>
-<div class="builds" id="CCooldown_builds">
-<table border="0">
-
-<h3>CCooldown:</h3>
-<tr>
-	<th>Minecraft</th>
-	<th>Version</th>
-	<th>Info</th>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.1</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ChatCooldown/releases/tag/v1.1">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ChatCooldown">Repo</a>)</td>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.0</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ChatCooldown/releases/tag/v1.0">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ChatCooldown">Repo</a>)</td>
-</tr>
-</table>
-</div>
-<div class="builds" id="ProblemReporter_builds">
-<table border="0">
-
-<h3>ProblemReporter:</h3>
-<tr>
-	<th>Minecraft</th>
-	<th>Version</th>
-	<th>Info</th>
-</tr>
-<tr>
-	<td>1.7.2+</td>
-	<td>1.0</td>
-	<td>(<a class="githubDL" href="https://github.com/Matthbo/ProblemReporter/releases/tag/1.0">Download</a>) (<a class="githubRepo" href="https://github.com/Matthbo/ProblemReporter">Repo</a>) (<a href="ported-plugins">Ports</a>)</td>
-</tr>
-</table>
-</div>
-
-<div class="info">
-If you have questions, changes or something differend,<br>
-Contact me: <a class="info" href="mailto:matthijs.booman@hotmail.com">E-Mail</a>, <a class="info" href="twitter.com/matthbo">Twitter</a>.<br>
-If there is a problem with a mod/plugin,<br>
-Click the "(Repo)" link and add an issue.
-</div>
-
-<div class="updates">
-<h4>Updates:</h4>
-<script>
-	getFile("updates.xml");
-</script>
-</div>
-
-<script>
-	var rd = document.getElementsByClassName('RegDownload');//.setAttribute('title', "Regular Download");
-	var md = document.getElementsByClassName('MirDownload');//.setAttribute('title', "Mirror Download");
-	var gdl = document.getElementsByClassName('githubDL');
-	var gr = document.getElementsByClassName('githubRepo');
-	
-	for(var a=0; a<rd.length; a++){rd[a].setAttribute('title', "Regular Download")}
-	for(var b=0; b<md.length; b++){md[b].setAttribute('title', "Mirror Download")}
-	for(var c=0; c<gdl.length; gdl++){gdl[c].setAttribute('title', "Github Download Page")}
-	for(var d=0; d < gr.length; d++){gr[d].setAttribute('title', "Github Repo Page");}
-</script>
+    <ul>
+      <li>
+        <a href="https://github.com/matthbo" target="_blank" id="github"><span>Github</span></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/matthbo" target="_blank" id="twitter"><span>Twitter</span></a>
+      </li>
+      <li>
+        <a href="https://www.twitch.tv/matthbo" target="_blank" id="twitch"><span>Twitch</span></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC9wzpqk9_12ntqojeFNeRNA" target="_blank" id="youtube"><span>YouTube</span></a>
+      </li>
+      <li>
+        <a href="/portfolio/"><span>Portfolio (made for my study)</span></a>
+      </li>
+    </ul>
+  </main>
 
 </body>
 </html>

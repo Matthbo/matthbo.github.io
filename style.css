@@ -1,88 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
 body {
-  background: #D1D1D1;
+  background-color: #F5F5F5;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFF;
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+
+}
+
+main .info #profile {
+  display: block;
+  width: 75%;
   margin: 0 auto;
-  font: "Verdana"
-  padding: 10px left;
-}
-.builds { margin: 10px; }
-h1 { margin: 10px; }
-h3 { margin: 20px; }
-h4 { margin: 10px; }
-.intro{ margin: 10px; }
-
-table
-{
-	margin: 20px;
-	width: auto;
-	background-color: #BFBFBF;
+  border-radius: 50%;
 }
 
-td,th
-{
-    white-space: nowrap;
-	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
+main .divider {
+  height: 0;
+  margin: 0 30px;
+  border-bottom: 2px solid rgba(0,0,0,.3);
 }
 
-th:last-child
-{
-	white-space: normal;                                      
-	width:75%;                                               
+main ul {
+  list-style: none;
+  padding: 0;
 }
 
-td:last-child
-{
-	white-space: normal;                                      
-	width:75%;                                               
+main ul li {
+  padding: 10px 20px;
+  
 }
 
-span.update{
-	background-color: #DFDFDF;
+main ul li:first-child {
+  padding-top: 0;
 }
 
-div.info{
-	background-color: #BFBFBF;
-	/*border-style: solid;
-	border-color: black;
-	border-width: 1px;*/
-	position: fixed;
-    top: 10px;
-    right: 10px;
-	text-align: center;
-	width: 20%;
+main ul li a {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
 }
 
-div.updates{
-	background-color: #BFBFBF;
-	position: fixed;
-    top: 150px;
-    right: 10px;
-	text-align: center;
-	width: 20%;
-	height: 75%;
-	/*overflow-y: scroll; add this if too much news!*/
+main ul li a span {
+  height: 30px;
+  line-height: normal;
 }
 
-a{
-	text-decoration: none;
+#github {
+  background-color: #24292e;
 }
 
-@media screen and (max-width: 800px) {
-/* applies only if the screen is narrower than 800px */
-	div.info {
-	background-color: #BFBFBF;
-	/*border-style: solid;
-	border-color: black;
-	border-width: 1px;*/
-	position: static;
-    top: 10px;
-    right: 10px;
-	text-align: center;
-	width: auto;
-	}
-	
-	div.updates{
-	visibility: hidden;
-	}
+#twitter {
+  background-color: #1da1f2;
+}
+
+#twitch {
+  background-color: #6441a4;
+}
+
+#youtube {
+  background-color: #fe0000;
 }
