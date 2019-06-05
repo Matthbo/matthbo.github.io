@@ -10,7 +10,9 @@ body {
 
 main {
   width: 100%;
+  max-width: 512px;
   height: 100%;
+    margin: 0 auto;
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
   background-color: #FFF;
