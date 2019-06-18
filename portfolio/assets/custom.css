@@ -17,6 +17,7 @@ img.portret {
 }
 
 img.header_img {
+  width: 100%;
   max-width: 740px;
   max-height: 256px;
   margin: 0 auto 5px;
