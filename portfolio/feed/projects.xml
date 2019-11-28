@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://matthbo.github.io/portfolio/feed/projects.xml" rel="self" type="application/atom+xml" /><link href="http://matthbo.github.io/portfolio/" rel="alternate" type="text/html" /><updated>2019-06-14T17:48:43+02:00</updated><id>http://matthbo.github.io/portfolio/feed/projects.xml</id><title type="html">Matthijs Booman Portfolio | Projects</title><subtitle>A portfolio of Matthijs Booman's projects, especially made for Hogeschool Rotterdam.</subtitle><entry><title type="html">HR openday app</title><link href="http://matthbo.github.io/portfolio/projects/openday-app.html" rel="alternate" type="text/html" title="HR openday app" /><published>2019-06-14T16:56:00+02:00</published><updated>2019-06-14T16:56:00+02:00</updated><id>http://matthbo.github.io/portfolio/projects/openday-app</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/openday-app.html">&lt;p&gt;The openday android app was made as a project for Hogeschool Rotterdam.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://matthbo.github.io/portfolio/feed/projects.xml" rel="self" type="application/atom+xml" /><link href="http://matthbo.github.io/portfolio/" rel="alternate" type="text/html" /><updated>2019-11-28T21:27:51+01:00</updated><id>http://matthbo.github.io/portfolio/feed/projects.xml</id><title type="html">Matthijs Booman Portfolio | Projects</title><subtitle>A portfolio of Matthijs Booman's projects, especially made for Hogeschool Rotterdam.</subtitle><entry><title type="html">HR Routeplanner</title><link href="http://matthbo.github.io/portfolio/projects/hr-routeplanner.html" rel="alternate" type="text/html" title="HR Routeplanner" /><published>2019-11-28T19:54:00+01:00</published><updated>2019-11-28T19:54:00+01:00</updated><id>http://matthbo.github.io/portfolio/projects/hr-routeplanner</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/hr-routeplanner.html">&lt;p&gt;HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.&lt;/p&gt;
+
+&lt;p&gt;This project uses the following development stack:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Angular (v7)
+    &lt;ul&gt;
+      &lt;li&gt;Typescript&lt;/li&gt;
+      &lt;li&gt;SCSS&lt;/li&gt;
+      &lt;li&gt;Google Maps API&lt;/li&gt;
+      &lt;li&gt;Three.js&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Spring (v?)
+    &lt;ul&gt;
+      &lt;li&gt;Swagger ui&lt;/li&gt;
+      &lt;li&gt;Graphhopper&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PostgreSQL&lt;/li&gt;
+  &lt;li&gt;Blender&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This project is still in development, more info will come when the project is finished.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Bramgus12/ProjectC&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.</summary></entry><entry><title type="html">HR openday app</title><link href="http://matthbo.github.io/portfolio/projects/openday-app.html" rel="alternate" type="text/html" title="HR openday app" /><published>2019-06-14T16:56:00+02:00</published><updated>2019-06-14T16:56:00+02:00</updated><id>http://matthbo.github.io/portfolio/projects/openday-app</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/openday-app.html">&lt;p&gt;The openday android app was made as a project for Hogeschool Rotterdam.
 The purpose of this project is to learn how to create a sufficient android app that meets the requirements of the product owner and the target audience.&lt;/p&gt;
 
 &lt;p&gt;The app has a list of open days with the date, when click on an open day you get see the description of the open day, the events that take place, an “add to calendar” button and a share button.
