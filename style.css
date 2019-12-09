@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -12,19 +12,23 @@ main {
   width: 100%;
   max-width: 512px;
   height: 100%;
-    margin: 0 auto;
-  padding: 10px;
+  margin: 0 auto;
+  padding: 3%;
   font-family: 'Montserrat', sans-serif;
   background-color: #FFF;
   box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-
 }
 
-main .info #profile {
+main .about #profile {
   display: block;
   width: 75%;
+  max-width: 250px;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+main .about h1 {
+  text-align: center;
 }
 
 main .divider {
@@ -33,21 +37,20 @@ main .divider {
   border-bottom: 2px solid rgba(0,0,0,.3);
 }
 
-main ul {
+main .socials ul {
   list-style: none;
   padding: 0;
 }
 
-main ul li {
-  padding: 10px 20px;
-  
+main .socials ul li {
+  padding: 8px 0;
 }
 
-main ul li:first-child {
+main .socials ul li:first-child {
   padding-top: 0;
 }
 
-main ul li a {
+main .socials ul li a {
   display: block;
   width: 100%;
   height: 60px;
@@ -60,7 +63,7 @@ main ul li a {
   background-color: #000;
 }
 
-main ul li a span {
+main .socials ul li a span {
   height: 30px;
   line-height: normal;
 }
