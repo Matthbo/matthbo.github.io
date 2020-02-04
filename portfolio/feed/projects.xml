@@ -1,8 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://matthbo.github.io/portfolio/feed/projects.xml" rel="self" type="application/atom+xml" /><link href="http://matthbo.github.io/portfolio/" rel="alternate" type="text/html" /><updated>2019-11-28T21:27:51+01:00</updated><id>http://matthbo.github.io/portfolio/feed/projects.xml</id><title type="html">Matthijs Booman Portfolio | Projects</title><subtitle>A portfolio of Matthijs Booman's projects, especially made for Hogeschool Rotterdam.</subtitle><entry><title type="html">HR Routeplanner</title><link href="http://matthbo.github.io/portfolio/projects/hr-routeplanner.html" rel="alternate" type="text/html" title="HR Routeplanner" /><published>2019-11-28T19:54:00+01:00</published><updated>2019-11-28T19:54:00+01:00</updated><id>http://matthbo.github.io/portfolio/projects/hr-routeplanner</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/hr-routeplanner.html">&lt;p&gt;HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://matthbo.github.io/portfolio/feed/projects.xml" rel="self" type="application/atom+xml" /><link href="https://matthbo.github.io/portfolio/" rel="alternate" type="text/html" /><updated>2020-02-04T16:50:51+01:00</updated><id>https://matthbo.github.io/portfolio/feed/projects.xml</id><title type="html">Matthijs Booman Portfolio | Projects</title><subtitle>A basic portfolio of Matthijs Booman's projects made using Jekyll. Is minimalistic, loads quickly and is ease to read.</subtitle><entry><title type="html">HR Routeplanner</title><link href="https://matthbo.github.io/portfolio/projects/hr-routeplanner.html" rel="alternate" type="text/html" title="HR Routeplanner" /><published>2019-11-28T19:54:00+01:00</published><updated>2019-11-28T19:54:00+01:00</updated><id>https://matthbo.github.io/portfolio/projects/hr-routeplanner</id><content type="html" xml:base="https://matthbo.github.io/portfolio/projects/hr-routeplanner.html">&lt;p&gt;HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.&lt;/p&gt;
+
+&lt;p&gt;The project was started to solve a simple problem: new students found it difficult to navigate the school and find their chosen elective courses.&lt;br /&gt;
+So we thought of a solution where student could fill in their classroom code and we visualize a path that navigates to that room.&lt;br /&gt;
+Some interest has generated among teachers and higherups in the school during the development of this project, to expand the functionality and its potential.&lt;/p&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+&lt;h4 id=&quot;indoor-navigation&quot;&gt;Indoor navigation&lt;/h4&gt;
+&lt;p&gt;Shows a route through a 3D model, you can move using the buttons and is ment to be used while walking.
+This component is made using three.js rendering the model that is made in blender, the route is calculated using Graphhopper &amp;amp; Dijkstra.&lt;/p&gt;
+
+&lt;h4 id=&quot;maps-navigation&quot;&gt;Maps navigation&lt;/h4&gt;
+&lt;p&gt;Shows a route on Google Maps on the left side and the directions on the right side, various settings can still be tweaked to get the desired route.
+This component is made using the Google Maps API&lt;/p&gt;
+
+&lt;h4 id=&quot;elective-courses&quot;&gt;Elective courses&lt;/h4&gt;
+&lt;p&gt;A list of elective courses, clicking on a course shows information about the course like; name, time &amp;amp; location and description.
+This component uses our own API since the school doesn’t have an API we can work with.
+The information in this component has to be manually updated every teaching period.&lt;/p&gt;
 
 &lt;p&gt;This project uses the following development stack:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Angular (v7)
+  &lt;li&gt;Angular
     &lt;ul&gt;
       &lt;li&gt;Typescript&lt;/li&gt;
       &lt;li&gt;SCSS&lt;/li&gt;
@@ -10,8 +28,9 @@
       &lt;li&gt;Three.js&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Spring (v?)
+  &lt;li&gt;Spring
     &lt;ul&gt;
+      &lt;li&gt;Java&lt;/li&gt;
       &lt;li&gt;Swagger ui&lt;/li&gt;
       &lt;li&gt;Graphhopper&lt;/li&gt;
     &lt;/ul&gt;
@@ -20,9 +39,8 @@
   &lt;li&gt;Blender&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This project is still in development, more info will come when the project is finished.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Bramgus12/ProjectC&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.</summary></entry><entry><title type="html">HR openday app</title><link href="http://matthbo.github.io/portfolio/projects/openday-app.html" rel="alternate" type="text/html" title="HR openday app" /><published>2019-06-14T16:56:00+02:00</published><updated>2019-06-14T16:56:00+02:00</updated><id>http://matthbo.github.io/portfolio/projects/openday-app</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/openday-app.html">&lt;p&gt;The openday android app was made as a project for Hogeschool Rotterdam.
+&lt;p&gt;&lt;a href=&quot;https://hrplanner.nl&quot;&gt;&lt;strong&gt;Live webapp&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/Bramgus12/ProjectC&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.</summary></entry><entry><title type="html">HR openday app</title><link href="https://matthbo.github.io/portfolio/projects/openday-app.html" rel="alternate" type="text/html" title="HR openday app" /><published>2019-06-14T16:56:00+02:00</published><updated>2019-06-14T16:56:00+02:00</updated><id>https://matthbo.github.io/portfolio/projects/openday-app</id><content type="html" xml:base="https://matthbo.github.io/portfolio/projects/openday-app.html">&lt;p&gt;The openday android app was made as a project for Hogeschool Rotterdam.
 The purpose of this project is to learn how to create a sufficient android app that meets the requirements of the product owner and the target audience.&lt;/p&gt;
 
 &lt;p&gt;The app has a list of open days with the date, when click on an open day you get see the description of the open day, the events that take place, an “add to calendar” button and a share button.
@@ -31,7 +49,7 @@ There is also a page to get more information about the school institute with a b
 &lt;p&gt;I learned how to make a persona and create a design based on said persona.
 I learned how to create a test plan and how to user test every feature.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/hro-inf1d-team3/ProjectB-Open-Day&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The openday android app was made as a project for Hogeschool Rotterdam. The purpose of this project is to learn how to create a sufficient android app that meets the requirements of the product owner and the target audience.</summary></entry><entry><title type="html">Grimfight</title><link href="http://matthbo.github.io/portfolio/projects/grimfight.html" rel="alternate" type="text/html" title="Grimfight" /><published>2018-09-19T20:00:00+02:00</published><updated>2018-09-19T20:00:00+02:00</updated><id>http://matthbo.github.io/portfolio/projects/grimfight</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/grimfight.html">&lt;p&gt;Grimfight is a strategic boardgame about collecting resources to survive.
+&lt;p&gt;&lt;a href=&quot;https://github.com/hro-inf1d-team3/ProjectB-Open-Day&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The openday android app was made as a project for Hogeschool Rotterdam. The purpose of this project is to learn how to create a sufficient android app that meets the requirements of the product owner and the target audience.</summary></entry><entry><title type="html">Grimfight</title><link href="https://matthbo.github.io/portfolio/projects/grimfight.html" rel="alternate" type="text/html" title="Grimfight" /><published>2018-09-19T20:00:00+02:00</published><updated>2018-09-19T20:00:00+02:00</updated><id>https://matthbo.github.io/portfolio/projects/grimfight</id><content type="html" xml:base="https://matthbo.github.io/portfolio/projects/grimfight.html">&lt;p&gt;Grimfight is a strategic boardgame about collecting resources to survive.
 It can be played with 2 up to 4 players.
 Every area has it’s own properties and resources.
 Craft weapons from various resources.
@@ -48,13 +66,13 @@ Grimfight is split in two pieces:&lt;/p&gt;
 
 &lt;p&gt;The digital component is made in python using &lt;a href=&quot;https://py.processing.org/&quot;&gt;python processing&lt;/a&gt;. It acts as a scoreboard for the game, but it can also keep track of the players stats, roll a digital dice and see when a person has died.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/Grimfight/Grimfight-digital&quot;&gt;Digital component code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Grimfight is a strategic boardgame about collecting resources to survive. It can be played with 2 up to 4 players. Every area has it’s own properties and resources. Craft weapons from various resources. Try to survive by having enough water &amp;amp; food, and make sure not to get ambushed by another player.</summary></entry><entry><title type="html">IRC in Node</title><link href="http://matthbo.github.io/portfolio/projects/irc-in-node.html" rel="alternate" type="text/html" title="IRC in Node" /><published>2018-09-19T02:00:00+02:00</published><updated>2018-09-19T02:00:00+02:00</updated><id>http://matthbo.github.io/portfolio/projects/irc-in-node</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/irc-in-node.html">&lt;p&gt;This project is made to find out how to properly send packets between clients completely in Node.js.
+&lt;p&gt;&lt;a href=&quot;https://github.com/Grimfight/Grimfight-digital&quot;&gt;Digital component code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Grimfight is a strategic boardgame about collecting resources to survive. It can be played with 2 up to 4 players. Every area has it’s own properties and resources. Craft weapons from various resources. Try to survive by having enough water &amp;amp; food, and make sure not to get ambushed by another player.</summary></entry><entry><title type="html">IRC in Node</title><link href="https://matthbo.github.io/portfolio/projects/irc-in-node.html" rel="alternate" type="text/html" title="IRC in Node" /><published>2018-09-19T02:00:00+02:00</published><updated>2018-09-19T02:00:00+02:00</updated><id>https://matthbo.github.io/portfolio/projects/irc-in-node</id><content type="html" xml:base="https://matthbo.github.io/portfolio/projects/irc-in-node.html">&lt;p&gt;This project is made to find out how to properly send packets between clients completely in Node.js.
 It is called IRC in Node because I want to replecate the IRC protocol.&lt;/p&gt;
 
 &lt;p&gt;While probably not compatible it should eventually feel the same to IRC users.
 The project is far from finished but you can take a look at what I have so far.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/Matthbo/irc-like&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This project is made to find out how to properly send packets between clients completely in Node.js. It is called IRC in Node because I want to replecate the IRC protocol.</summary></entry><entry><title type="html">Simple Remote Webserver (srws)</title><link href="http://matthbo.github.io/portfolio/projects/srws.html" rel="alternate" type="text/html" title="Simple Remote Webserver (srws)" /><published>2018-09-19T02:00:00+02:00</published><updated>2018-09-19T02:00:00+02:00</updated><id>http://matthbo.github.io/portfolio/projects/srws</id><content type="html" xml:base="http://matthbo.github.io/portfolio/projects/srws.html">&lt;p&gt;Simple Remote Webserver or srws is a small tool to create a remote webserver and load the given folder as if it was a real local development webserver.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Matthbo/irc-like&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This project is made to find out how to properly send packets between clients completely in Node.js. It is called IRC in Node because I want to replecate the IRC protocol.</summary></entry><entry><title type="html">Simple Remote Webserver (srws)</title><link href="https://matthbo.github.io/portfolio/projects/srws.html" rel="alternate" type="text/html" title="Simple Remote Webserver (srws)" /><published>2018-09-19T02:00:00+02:00</published><updated>2018-09-19T02:00:00+02:00</updated><id>https://matthbo.github.io/portfolio/projects/srws</id><content type="html" xml:base="https://matthbo.github.io/portfolio/projects/srws.html">&lt;p&gt;Simple Remote Webserver or srws is a small tool to create a remote webserver and load the given folder as if it was a real local development webserver.&lt;/p&gt;
 
 &lt;p&gt;This tools was created rather quickly and isn’t as optimal as I wanted it to be.
 I need to change express to node’s native webserver for optimal performance.&lt;/p&gt;

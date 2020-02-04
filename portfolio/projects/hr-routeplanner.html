@@ -10,16 +10,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination." />
 <meta property="og:description" content="HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination." />
-<link rel="canonical" href="http://matthbo.github.io/portfolio/projects/hr-routeplanner.html" />
-<meta property="og:url" content="http://matthbo.github.io/portfolio/projects/hr-routeplanner.html" />
+<link rel="canonical" href="https://matthbo.github.io/portfolio/projects/hr-routeplanner.html" />
+<meta property="og:url" content="https://matthbo.github.io/portfolio/projects/hr-routeplanner.html" />
 <meta property="og:site_name" content="Matthijs Booman Portfolio" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-11-28T19:54:00+01:00" />
 <script type="application/ld+json">
-{"description":"HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.","@type":"BlogPosting","url":"http://matthbo.github.io/portfolio/projects/hr-routeplanner.html","headline":"HR Routeplanner","dateModified":"2019-11-28T19:54:00+01:00","datePublished":"2019-11-28T19:54:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://matthbo.github.io/portfolio/projects/hr-routeplanner.html"},"@context":"http://schema.org"}</script>
+{"description":"HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.","@type":"BlogPosting","url":"https://matthbo.github.io/portfolio/projects/hr-routeplanner.html","headline":"HR Routeplanner","dateModified":"2019-11-28T19:54:00+01:00","datePublished":"2019-11-28T19:54:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://matthbo.github.io/portfolio/projects/hr-routeplanner.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/portfolio/assets/main.css">
-  <link rel="stylesheet" href="/portfolio/assets/custom.css"><link type="application/atom+xml" rel="alternate" href="http://matthbo.github.io/portfolio/feed.xml" title="Matthijs Booman Portfolio" /></head>
+  <link rel="stylesheet" href="/portfolio/assets/custom.css"><link type="application/atom+xml" rel="alternate" href="https://matthbo.github.io/portfolio/feed.xml" title="Matthijs Booman Portfolio" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/portfolio/">Matthijs Booman Portfolio</a><nav class="site-nav">
@@ -32,7 +32,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/portfolio/about/">About</a><a class="page-link" href="/portfolio/cv/">Curriculum vitae</a></div>
+        <div class="trigger"><a class="page-link" href="/portfolio/about/">About portfolio</a><a class="page-link" href="/portfolio/about_me/">About Me</a><a class="page-link" href="/portfolio/cv/">Curriculum vitae</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -46,9 +46,27 @@
   <div class="post-content e-content" itemprop="articleBody">
     <p>HR Routeplanner is a web app routeplanner for elective courses and navigation from start point to destination building/room and indoor navigation in the form of a 3D model to show you the way to your destination.</p>
 
+<p>The project was started to solve a simple problem: new students found it difficult to navigate the school and find their chosen elective courses.<br />
+So we thought of a solution where student could fill in their classroom code and we visualize a path that navigates to that room.<br />
+Some interest has generated among teachers and higherups in the school during the development of this project, to expand the functionality and its potential.</p>
+
+<h3 id="features">Features</h3>
+<h4 id="indoor-navigation">Indoor navigation</h4>
+<p>Shows a route through a 3D model, you can move using the buttons and is ment to be used while walking.
+This component is made using three.js rendering the model that is made in blender, the route is calculated using Graphhopper &amp; Dijkstra.</p>
+
+<h4 id="maps-navigation">Maps navigation</h4>
+<p>Shows a route on Google Maps on the left side and the directions on the right side, various settings can still be tweaked to get the desired route.
+This component is made using the Google Maps API</p>
+
+<h4 id="elective-courses">Elective courses</h4>
+<p>A list of elective courses, clicking on a course shows information about the course like; name, time &amp; location and description.
+This component uses our own API since the school doesn’t have an API we can work with.
+The information in this component has to be manually updated every teaching period.</p>
+
 <p>This project uses the following development stack:</p>
 <ul>
-  <li>Angular (v7)
+  <li>Angular
     <ul>
       <li>Typescript</li>
       <li>SCSS</li>
@@ -56,8 +74,9 @@
       <li>Three.js</li>
     </ul>
   </li>
-  <li>Spring (v?)
+  <li>Spring
     <ul>
+      <li>Java</li>
       <li>Swagger ui</li>
       <li>Graphhopper</li>
     </ul>
@@ -66,9 +85,8 @@
   <li>Blender</li>
 </ul>
 
-<p>This project is still in development, more info will come when the project is finished.</p>
-
-<p><a href="https://github.com/Bramgus12/ProjectC">Github repo</a></p>
+<p><a href="https://hrplanner.nl"><strong>Live webapp</strong></a><br />
+<a href="https://github.com/Bramgus12/ProjectC">Github repo</a></p>
 
   </div><img class="bottom_img" src="/portfolio/assets/projects/hr-routeplanner-bottom.jpg" alt="bottom image"><a class="u-url" href="/portfolio/projects/hr-routeplanner.html" hidden></a>
 </article>
@@ -91,7 +109,7 @@
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>A portfolio of Matthijs Booman&#39;s projects, especially made for Hogeschool Rotterdam.</p>
+        <p>A basic portfolio of Matthijs Booman&#39;s projects made using Jekyll. Is minimalistic, loads quickly and is ease to read.</p>
       </div>
     </div>
 
