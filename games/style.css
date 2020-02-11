@@ -1,0 +1,58 @@
+@import "/main.css";
+
+main {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: #FFF;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    table-layout: auto;
+}
+
+table th {
+    text-align: left;
+    border-bottom: 2px solid #D8D8D8;
+}
+
+table th + th {
+    border-left: 1px dotted #D8D8D8;
+}
+
+table td {
+    border-top: 1px solid #D8D8D8;
+}
+
+table td + td {
+    border-left: 1px dotted #D8D8D8;
+}
+
+table td:nth-child(4) {
+    white-space: pre;
+}
+
+table, table th, table td {
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+.explain {
+    text-decoration: underline dotted #999;
+}
+
+@media screen and (min-width: 992px){
+    main {
+        width: 60%;
+        max-width: initial;
+        padding: 2%;
+    }
+}

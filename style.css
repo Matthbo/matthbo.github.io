@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-}
+@import "main.css";
 
 main {
   width: 100%;
@@ -14,7 +6,6 @@ main {
   height: 100%;
   margin: 0 auto;
   padding: 3%;
-  font-family: 'Montserrat', sans-serif;
   background-color: #FFF;
   box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
@@ -61,6 +52,7 @@ main .socials ul li a {
   font-weight: bold;
   color: #fff;
   background-color: #000;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 main .socials ul li a span {
